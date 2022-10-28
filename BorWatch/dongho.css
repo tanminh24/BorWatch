@@ -1,0 +1,360 @@
+body{
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 0px auto;
+    margin: 0px auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    font-weight: bold;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*header*/
+header{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #353535;
+    border-bottom: 1px solid #544E4F;
+}
+header a{
+    color: #ffffff;
+}
+header a:hover{
+    color: #c89979;
+}
+/*header top*/
+header>.top{
+    position: relative;
+    width: auto;
+    height: 38px;
+    border-bottom: 1px solid #544E4F;
+    background-color:#353535;
+}
+header>.top>.icon{
+    position: absolute;
+    width: auto;
+    height: 38px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 95%;
+}
+header>.top>.h1{  
+    position: absolute;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 500px;     
+}
+header>.top>.h2{  
+    position: absolute;
+    width: 450px;
+    font-size: 15px;
+    padding-top:15px;
+    padding-left: 60px;   
+}
+/*header mid*/
+header img{
+    position: absolute;
+    width: 199px;
+    height: 70px;
+    top: 65px;
+    left: 60px;
+}
+header>.h6{
+    position: absolute;
+    width: 40%;
+    margin-top: 40px;
+    left: 30%;
+}
+header>.h6 input{
+    width: 80%;
+    height: 40px;
+    background: #ffffff;
+    font-size: 14pt;
+    color: black;
+    padding-left: 10px;
+    border: 1px solid #544E4F;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    float: left;
+}
+header>.h6 .icon{
+    width: 20%;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: #c89979;
+    padding-top: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    float: left;
+}
+header>.h6 .icon:hover{
+    border: none;
+    background-color: #ad8061;
+}
+header>.h7{
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 95%;
+}
+/*nav*/
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #353535;
+    text-align: center;
+}
+.main-menu{
+    display: inline-block;
+}
+.main-menu>li{
+    float: left;
+    padding:  19px 50px ;
+}
+.main-menu>li>a{
+    color: #ffffff;
+}
+.main-menu a:hover{
+    color: #c89979;
+}
+.main-menu li{
+    position: relative;
+}
+.sub-menu li{
+    padding: 8px 20px;
+}
+.sub-menu a{
+    color: #353535;
+}
+.sub-menu{
+    position: absolute;
+    width: 175px;
+    text-align: left;
+    top: 45px;
+    left: 0%;
+    background-color: #ffffff ;
+    display: none;
+    z-index: 9999;
+}
+.main-menu li:hover>.sub-menu{
+    display: block;
+}
+/*footer*/
+footer{
+    position: relative;
+    width: auto;
+    height: 350px;
+    background-color:#353535;
+}
+footer a{
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+footer a:hover{
+    color: #c89979;
+}
+.f1, .f2, .f3, .f4, .f5{
+    position: absolute;
+    height: 90%;
+    margin-top: 1%;
+    float: left;
+}
+.f1{
+    width: 16%;
+    margin-left: 3%;
+}
+.f2{
+    width: 9%;
+    margin-left: 20%;
+}
+.f3{
+    width: 31%;
+    margin-left: 30%;
+}
+.f4{  
+    height: 55%;
+    width: 35%; 
+    margin-left: 62%;
+}
+.f5{
+    margin-left: 62%;
+    margin-top: 210px;
+    width: 35%;
+    height: 35%;
+}
+footer p{
+    font-size: 18px;
+    color: white;
+    text-align: left;
+}
+
+footer>.f4 .email{
+    width: 100%;
+    padding-bottom: 40px;
+}
+footer>.f4 .email input{
+    width: 80%;
+    height: 40px;
+    background: #ffffff;
+    font-size: 13pt;
+    color: black;
+    padding-left: 10px;
+    border: 1px solid #544E4F;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    float: left;
+}
+footer>.f4 .email .icon1{
+    width: 16%;
+    height: 44px;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: #c89979;
+    padding-top: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    float: left;
+}
+footer>.f4>.icon{
+    font-size: 40px;
+    padding-left: 5%; 
+}
+footer>.f4 .icon1:hover{
+    background-color: #ad8061;
+}
+footer>.f4 .icon:hover{
+    color: #ad8061;
+}
+/*article*/
+
+article{
+    position: relative;
+    width: 1250px;
+    height: 1350px;
+    margin: auto;
+}
+article>.title>p{
+    width:500px;
+    height: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #353535;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+article>.menu{
+    position: absolute  ;
+    width: 300px;
+    height: 500px;
+    background-color: #eceaeb;
+}
+.menu .dm{
+    color: #353535;
+    font-size: 30px;
+    text-align: center;
+}
+.menu .loai{
+    color: #544E4F;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.menu .list{
+    color: #544E4F;
+    font-size: 20px;
+    padding-left: 25px;
+}
+.menu a{
+    color: #353535;
+}
+.menu a:hover{
+    color: #ad8061;
+}
+article .listsp{
+    position: absolute;
+    width: 900px;
+    height: 1210px;
+    margin-left: 340px;
+}
+article .listsp p{
+    position: absolute;
+    color: black;
+    width: 80%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 10%;
+}
+article .name:hover{
+    color: #c89979;
+}
+article .ban, article .back{
+    position: absolute;
+    border-right: 1px solid #353535;
+    width: 100%;
+    margin-top: 40px;
+} 
+article .ban:hover{
+    opacity: 0;
+    transition: 0.3s;
+}
+article .money{
+    color: rgb(182, 179, 179) !important;
+    margin-top: 310px !important;
+}
+.sp1, .sp2, .sp3, .sp4, 
+.sp5, .sp6, .sp7, .sp8,
+.sp9, .sp10, .sp11, .sp12{
+    position: absolute;
+    width: 220px;
+    height: 370px;
+}
+.sp1 .ban, .sp1 .back,
+.sp5 .ban, .sp5 .back,
+.sp9 .ban, .sp9 .back {
+    border-left: 1px solid #353535;
+}
+.sp2, .sp6, .sp10{
+    margin-left: 25%; 
+}
+.sp3, .sp7, .sp11{
+    margin-left: 50%;
+}
+.sp4, .sp8, .sp12{
+    margin-left: 75%;
+}
+.spd1, .spd2, .spd3{
+    height: 370px;
+}
+.spd2, .spd3{
+    margin-top: 20px;
+}
+
+.button{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    margin-top: 400px;
+    text-align: center;
+}
+article button:hover{
+    color: #c89979;
+}
+.hr1{
+    margin-top: 1270px;
+}
